@@ -10,41 +10,43 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText valOne;
-    private EditText valTwo;
-    private Spinner operation;
+    private EditText val1;
+    private EditText val2;
+    private Spinner operate;
     private TextView result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Spinner spinner = (Spinner) findViewById(R.id.operations);
+        Spinner spinner = (Spinner) findViewById(R.id.operationSpin);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource
-                (this, R.array.operations, android.R.layout.simple_spinner_item);
+                (this, R.array.operation, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
-        valOne = (EditText) findViewById(R.id.editText_main);
-        valTwo = (EditText) findViewById(R.id.editText_second);
-        operation = (Spinner) findViewById(R.id.operations);
-        result = (TextView) findViewById(R.id.textView3);
+        val1 = (EditText) findViewById(R.id.editText_val1);
+        val2 = (EditText) findViewById(R.id.editText_val2);
+        operate = (Spinner) findViewById(R.id.operationSpin) ;
+        result = (TextView) findViewById(R.id.result);
     }
 
     public void calculate(View view) {
-        int val1;
-        int val2;
-        int endVal = 0;
-        String op = "";
-        val1 = Integer.parseInt(valOne.getText().toString());
-        val2 = Integer.parseInt(valTwo.getText().toString());
+        int num1;
+        int num2;
+        Integer endNum = 0;
+        String op;
+        num1 = Integer.parseInt(val1.getText().toString());
+        num2 = Integer.parseInt(val2.getText().toString());
+        op = operate.getSelectedItem().toString();
         switch (op) {
-            case "+" : endVal = val1 + val2; break;
-            case "-" : endVal = val1 - val2; break;
-            case "x" : endVal = val1 * val2; break;
-            case "/" : endVal = val1 / val2; break;
+            case "+" : endNum = num1 + num2; break;
+            case "-" : endNum = num1 - num2; break;
+            case "*" : endNum = num1 * num2; break;
+            case "/" : endNum = num1 / num2; break;
         }
-        result.setText(endVal.);
+
+        result.setText(endNum.toString());
         result.setVisibility(View.VISIBLE);
     }
+
 }
