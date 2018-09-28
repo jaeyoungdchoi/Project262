@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/val_two"
+        android:layout_marginLeft="49dp"
+        android:layout_toRightOf="@+id/val_one"
+        android:hint="@string/hint_one"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_main"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/val_two"
+        android:layout_toRightOf="@+id/val_two"
+        android:hint="@string/Value2"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/val_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/value1" />
+
+    <TextView
+        android:id="@+id/val_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/val_one"
+        android:layout_marginBottom="20dp"
+        android:text="@string/hint_two" />
+
+    <TextView
+        android:id="@+id/op_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/val_two"
+        android:layout_marginBottom="20dp"
+        android:text="@string/operations"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button"
+        android:layout_below="@+id/operations"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="221dp"
+        android:layout_height="74dp"
+        android:layout_below="@+id/op_sign"
+        android:layout_marginTop="332dp"
+        android:layout_marginRight="10dp"
+        android:onClick="calculate"
+        android:text="Calculate" />
+
+    <ScrollView
+        android:id="@+id/operations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/val_two"
+        android:layout_toRightOf="@+id/op_sign"
+        android:layout_marginBottom="30dp"/>
+
+
+
+</RelativeLayout>
