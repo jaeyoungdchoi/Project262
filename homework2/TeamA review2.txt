@@ -1,0 +1,8 @@
+The prototype has seen a decent amount of progress since that last deliverable, and the prototype runs.
+The application is pretty self explanatory and a few of their features such as recording time by category work.
+However, I feel like they could have made more progress with the amount of time they had.
+They added a few features, but no additional activities. 
+It seems like the team is applying parts of the lab to the application, but not much more.
+The vision statement has been revised, but it still contains gramatical and spelling errors.
+The story logs make sense. (Second part of story log is missing a period)
+The UI model looks good and reflects the application's design and features well.
