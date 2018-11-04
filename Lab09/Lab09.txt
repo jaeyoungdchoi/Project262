@@ -1,0 +1,12 @@
+Jae Young Choi
+Lab09
+
+a. The API has one endpoint: line 122 of pom.xml
+
+b.i 	JDBC
+b.ii.1.	JDBC iterates through the database, while SQL statements go through the database once.
+b.ii.2.	SQL relations are tables, while JDBC is a list of tuples, and List<Player> is list of Player objects.
+b.iii.	The values that are being looked at needs to be of type String, if no strings are found, the result will be null.
+
+c.i.	Creates a class called Player, containing attricutes and methods to CRUD player data.
+c.ii.	Player table is a tables (relational database) that contains data regarding player. CRUD can be implemented on the player table, but the table itself has no methods.
