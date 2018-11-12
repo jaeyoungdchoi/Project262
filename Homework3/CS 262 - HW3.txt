@@ -1,0 +1,70 @@
+Jae Young Choi
+CS 262 - HW 03
+
+1.
+a.
+ The service is RESTful because it meets all the criteria of a RESTful service.
+ - It remains stateess
+ - It uses HTTP requests
+ - It is accessed with a directory structure
+ - It returns information in JSON format.
+
+b.
+ Idempotent: GET, PUT and DELETE
+ Nullipotent: GET
+ Player class implements GET, PUT and DELETE, so it is idempotent
+ Player.id implements GET, so it is also Nullipotent.
+
+c.
+   Object oriented programs use classes while relational databases use classes (connected through)
+ primary and foreign keys. "In object-oriented framework, the underlying proporties of a given
+ object are expected to be unexposed to any interface outside of the one implemented alongside
+ the object. However, object-relational mapping necessarily exposes the underlying content of 
+ an object to interact with an interface that the object implementation cannot specify.
+ Therefore, object-relational mapping violates the encapsulation of the object, since many
+ object-relational mappers automatically generates public fields corresponding to database columns".
+ (https://en.wikipedia.org/wiki/Object-relational_impedance_mismatch)
+
+d.
+   Yes, it is susceptible to SQL-injection attacks because of the WHILE statement. Anytime there
+ is an if or while statement, new code can be injected to overide what the code was initially
+ supposed to filter out. 
+
+
+2.
+a.
+It looks like Team A made some good progress since the last  deliverable.
+
+b.
+   Looking at their UI model, the application seems very simple and easy to use; which is great
+ considering that was one of their main goals for this application. Also, the domain model seems
+ pretty accurate, but might be missing a many to many relationship between Time and Project and
+ Employee. I was not able to find their database on Github; however, from their presentation,
+ I beleive their database could include "billable" (boolean), and "Type of work" (String) 
+ because that is where real value added information is gathered for the manager. Besides that,
+ I think they are doing pretty well.
+
+c.
+  The team's prototype runs and some of their functions work as expected. It seems like the team
+ was able to make some good progress during this deliverable, but it seems like the team mostly
+ worked on easier functions and left the more difficult ones aside for now.
+ In terms of their database, I am still not sure how their online database is planning out.
+ I can see the monopoly database SQL scrips on github, but nothing relating to their database.
+ However, that is likely because we are all still in the process of working on it. 
+ I would encourage them to keep up the good work, but try to do slightly more than they are 
+ currently planning on doing, including deviding the logged hours between billable and 
+ non-billable hours, breaking down the type of work that is being done for the given project, 
+ and having information flow through to the database to allow managers to easily see the 
+ progress of employees' work instead of managers having to look at employees' work from their
+ account. In terms of meeting the requirements for deliverables #3 and #4, I beleive they met
+ all of the requirements because they shared their vision, analysis & design, and was able to
+ illustrate their implementations so far and some implementations they are planning to add (dark
+ screen feature).
+
+d.
+   The team's presentation worked, because people were able to understand what the project was
+ about and how the application functioned by the end of the presentation. The presentation did not
+ work, was not very effective, because they could have presented their information in a more
+ professtional and thought out manner. It especially did not help that one of the members
+ presented in a very distractive manner (though I beleive that was due to being nervous). 
+ I would rate presentation 7th due to their lack of presentation skills.
