@@ -1,0 +1,20 @@
+Jae Young Choi
+CS 262 - Lab11
+
+Homework 1
+- Reformatted code to optimize imports and rearrange entries.
+- Ran code inspection
+  - Got ride of redundancies
+- Moved the operations spinner to make it easier to click.
+
+Homework 2
+- Reformatted code to optimize imports and rearrange entries.
+- Ran code inspection
+  - Optimized performance with .append calls
+  - Made FetchPlayer and NetworkUtils class private
+  - Added "final" modifier to variable "playerId"
+  - Added a "finally{ if (urlConnection!= null) }" clause
+  - Fixed a typo "gramatically" to "grammatically" in TeamA review2.txt
+
+Homework 3
+- Nothing to change.
