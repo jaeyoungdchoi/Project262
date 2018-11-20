@@ -19,17 +19,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Spinner spinner = (Spinner) findViewById(R.id.operationSpin);
+        Spinner spinner = findViewById(R.id.operationSpin);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource
                 (this, R.array.operation, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
-        val1 = (EditText) findViewById(R.id.editText_val1);
-        val2 = (EditText) findViewById(R.id.editText_val2);
-        operate = (Spinner) findViewById(R.id.operationSpin) ;
-        result = (TextView) findViewById(R.id.result);
+        val1 = findViewById(R.id.editText_val1);
+        val2 = findViewById(R.id.editText_val2);
+        operate = findViewById(R.id.operationSpin);
+        result = findViewById(R.id.result);
     }
 
+    /*
+     *
+     */
     public void calculate(View view) {
         int num1;
         int num2;
