@@ -1,0 +1,11 @@
+Jae Young Choi
+CS 262 - Homework4
+
+	I believe Team A's user test was well planned and executed. They sent the stakeholders a spreadsheet
+to sign up for a time and the testing experience was professional and pleasant. The instructions were
+clear and easy to follow, and for the most part, they took my comments and criticism well. One of the
+members tried to defend an aspect of the application, which wasn't very professional or warranted, but
+besides that, it was a pleasant experience. I believe enough work has been done on the program and
+enough code has been pushed due to the new features, such as adding and deleting time inputs for
+project, were implemented to the application. Overall, I am pleased with the effort and advancement
+Team A has made so far.
