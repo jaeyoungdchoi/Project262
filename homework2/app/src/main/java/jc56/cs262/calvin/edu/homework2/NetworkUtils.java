@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class NetworkUtils {
+class NetworkUtils {
     private static final String PLAYER_BASE_URL = "https://calvincs262-monopoly.appspot.com/monopoly/v1/players";
     private static final String QUERY_PARAM = "q";
     private static final String MAX_RESULTS = "maxResults";
@@ -45,7 +45,7 @@ public class NetworkUtils {
                 /* Since it's JSON, adding a newline isn't necessary (it won't affect
                 parsing) but it does make debugging a *lot* easier if you print out the
                 completed buffer for debugging. */
-                buffer.append(line + "\n");
+                buffer.append(line).append("\n");
             }
             if (buffer.length() == 0) {
                 // Stream was empty.  No point in parsing.

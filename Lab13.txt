@@ -1,0 +1,17 @@
+Jae Young Choi
+CS 262 - Lab13
+
+User Story:
+"As a driver, I want to post the maximum number of passengers that is available so that passengers have better information of the ride."
+
+Instructions:
+1. Click on the "START A RIDE" button.
+2. Click on the "PICK DATE" button and choose the date of the ride you are creating and click "okay".
+3. Click on the "PICK TIME" button and use the clock to chose the hour and minute
+	of your ride, and click "okay".
+4. Click on "Starting Location" and type the starting location of your ride.
+5. Click on "Destination" and type the destination of your ride.
+6. Click on the "Number of Passengers" spinner and chose the number of passengers of your ride.
+7. Click on "Create A Ride" button to create the ride!
+
+
