@@ -1,0 +1,39 @@
+Jae Young Choi
+CS 262 - Homework5
+Teammates Review
+
+Overall, I think our group functioned together pretty well. Workload was definitely not evenly 
+distributed, but I beleive that was more due to some members taking on harder tasks, running into
+problems, and still pushing through in order to deliver. No one slacked off and added work for others, 
+but I feel like some people could have been a little more proactive.
+
+Nate: 20%
+Nate was very invested in the project and gave a lot of effort, especially on the database.
+He got along with others very well and was very serving, helping other group members on a regular basis.
+He even gave the final presentation.
+
+Valeria: 18%
+Valeria managed a lot of our deliverable requirements, helped us stay in touch with and receive the
+professor and receive feedback from him. She also put in a good effort for the final presentation.
+She struggled a little with coding, like the rest of us, but it never stopped her from trying.
+I would think she carried her own weight in programming the android application, and whatever she laked
+she made up for by managing deliverables.
+
+Luke: 16%
+Luke mostly worked on programming his portion of the android application, and was self-sufficient.
+He carried his own weight and also contributed a little to setting up the database. 
+
+Kelly: 14%
+Kelly also mostly worked on her portion of the android application. She adequately completed tasks 
+that were assigned to her and contributed to user testings. Overall, she pulled her own weight, but I
+feel like she could have been more proactive and contributed a little more to the project as a whole.
+
+Lauren: 12%
+I think Lauren strickly worked on the android application and completed tasks that were assigned to her,
+but I feel like that is all she did. She was very social with other group members but I feel like she,
+for the most part, took the back seat and only did what she was assigned.
+
+Me: 20%
+I would say I contributed in ways that I could, whether it be programming, designing electronic models
+for the presentation, or working on the database with Nate. But I also took the back seat and didn't
+contribute to the final presentation.

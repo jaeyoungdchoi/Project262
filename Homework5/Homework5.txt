@@ -1,0 +1,26 @@
+Jae Young Choi
+CS 262 - Homework 5
+Review of TEAM A
+
+a.
+	TEAM A started out pretty weak. They didn't seem to have a direction or plan 
+for the application, didn't show much activity at all by the first or even second
+deliverable, and overall did not seem motivated. But as the semester progressed, they
+increased their efforts, increasing their progress and took the initiative to improve
+their application. The implementation of the graph was excellent. It was creative, 
+intuitive, and engaging. 
+
+b.
+	TEAM A's final presentation was significantly better than their previous
+presentation. They were better prepared, less nervous, and more confident than they
+were for the previous presentation. Also, tracking their presentation and showing the
+result was a nice touch to the presentation. It effectively presented the application's
+functions and was engaging for the audience.
+
+c.
+	Looking at their final product, it was evident that they took the test user's
+advice seriously through the changes they made like changing the location of the buttons
+and changing the time format to a more meaningful format of hours, minutes, and seconds.
+Also, the team's recent actions on github shows that the team has been active and making
+good progress. Lastly, I beleive their final product met their initial goal of making a
+very user-friendly and simplified/lean application that provides time tracking functions. 
